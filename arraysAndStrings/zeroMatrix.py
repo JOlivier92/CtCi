@@ -10,7 +10,6 @@ def zeroMatrix(arr):
         arr[pos[0]] = [0] * len(arr[0])
         for num in [x for x in range(0,len(arr))]:
             arr[num][pos[1]] = 0
-    print(arr)
     return arr
 
 
